@@ -2,6 +2,8 @@
 
 **NeuralBrush** blends the artistic style of one image onto the content of another using **AdaIN (Adaptive Instance Normalization)** — a real-time neural style transfer technique. Upload a content photo and a style reference, adjust the style strength, and get a stylized result.
 
+🔗 **Live Demo:** [https://neuralbrush.onrender.com](https://neuralbrush.onrender.com)
+
 ---
 
 ## ✨ Features
@@ -31,6 +33,8 @@ NeuralBrush uses the AdaIN approach introduced by Huang & Belongie (2017):
 - **Flask** + **Flask-WTF** + **Flask-Bootstrap** — web app & form handling
 - **Pillow** — image I/O
 - **Bootstrap 5** — front-end styling
+- **GitHub Actions** — CI pipeline
+- **Render** — hosting & CD
 
 ---
 
@@ -108,7 +112,7 @@ The model was trained using:
 ## 🗺 Roadmap
 
 - [ ] Add support for video style transfer
-- [ ] Deploy a hosted demo
+- [x] Deploy a hosted demo
 - [ ] Add more built-in style presets
 - [ ] Batch processing for multiple images
 
@@ -119,7 +123,6 @@ The model was trained using:
 Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/AyanJaved/NeuralBrush/issues).
 
 ---
-
 
 ## 🙏 Acknowledgements
 
