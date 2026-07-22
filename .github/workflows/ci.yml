@@ -27,3 +27,7 @@ jobs:
       - name: Check for syntax errors / basic import check
         run: |
           python -c "import app"
+          
+      - name: Trigger Render Deploy
+        if: github.ref == 'refs/heads/main'
+        run: curl -X POST "${{ secrets.RENDER_DEPLOY_HOOK }}"
