@@ -2,8 +2,6 @@
 
 **NeuralBrush** blends the artistic style of one image onto the content of another using **AdaIN (Adaptive Instance Normalization)** — a real-time neural style transfer technique. Upload a content photo and a style reference, adjust the style strength, and get a stylized result.
 
-![NeuralBrush Banner](demo_images/output/sample_output.jpg)
-
 ---
 
 ## ✨ Features
