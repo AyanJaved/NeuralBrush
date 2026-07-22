@@ -2,7 +2,24 @@
 .DS_Store
 **/.DS_Store
 
-# Ignore Python bytecode directories
+# Python bytecode / cache
 __pycache__/
 **/__pycache__/
 *.pyc
+
+# Virtual environment
+venv/
+
+# Old code folder - not used anymore after flattening structure
+NST_Code/
+
+# Large raw datasets - not needed by anyone cloning the app
+dataset/
+*.zip
+
+# User-uploaded / generated images at runtime - keep the folder, ignore its contents
+static/uploads/*
+!static/uploads/.gitkeep
+
+# VS Code settings (optional - remove this line if you want to share editor config)
+.vscode/
